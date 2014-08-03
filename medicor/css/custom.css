@@ -1,6 +1,12 @@
-.img-logo {
-    display: block;
-    min-height: 150px;
+.head-clinic-data {
+
+}
+.head-clinic-data h2 {
+	margin-top: 0;
+	font-size: 20px;
+}
+.head-clinic-data .adr {
+	margin-top: 20px;
 }
 
 .fixed-aspect-ratio {
@@ -16,4 +22,10 @@
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+abbr,
+abbr[title],
+abbr[data-original-title] {
+	border: 0 none;
 }
