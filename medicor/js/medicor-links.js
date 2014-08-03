@@ -4,15 +4,15 @@
  */
 (function ($) {
     $(document).ready(function () {
-        $('a.tel').click(function () {
+        $('a.tel').on('mousedown', function () {
             ga('send', 'event', 'link', 'click', 'telephone');
         });
 
-        $('a.license').click(function () {
+        $('a.license').on('click', function () {
             ga('send', 'event', 'link', 'click', 'license');
         });
 
-        $('a.price').click(function () {
+        $('a.price').on('click', function () {
             ga('send', 'event', 'link', 'click', 'price');
         });
     });
