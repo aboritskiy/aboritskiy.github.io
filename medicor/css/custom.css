@@ -38,3 +38,7 @@ abbr[data-original-title] {
 .supervisors li {
 	margin-bottom: 10px;
 }
+
+.nobr {
+	white-space: nowrap;
+}

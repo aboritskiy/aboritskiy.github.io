@@ -17,6 +17,10 @@
         $('a.price').on('click', function () {
             ga('send', 'event', 'link', 'click', 'price');
         });
+
+        $('a.medvaz').on('click', function () {
+            ga('send', 'event', 'link', 'click', 'medvaz');
+        });
     });
 
     $(window).on('load', function () {
