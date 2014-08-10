@@ -29,3 +29,12 @@ abbr[title],
 abbr[data-original-title] {
 	border: 0 none;
 }
+
+.bank-requisites {
+	list-style: none;
+	padding-left: 0;
+}
+
+.supervisors li {
+	margin-bottom: 10px;
+}
