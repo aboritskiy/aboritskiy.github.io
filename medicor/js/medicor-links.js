@@ -4,8 +4,6 @@
  */
 (function ($) {
     $(document).ready(function () {
-        ga('send', 'event', 'document', 'ready', 'index');
-
         $('a.tel').on('mousedown', function () {
             ga('send', 'event', 'link', 'click', 'telephone');
         });
