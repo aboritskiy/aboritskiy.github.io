@@ -39,6 +39,7 @@ abbr[data-original-title] {
 	margin-bottom: 10px;
 }
 
-.nobr {
+.nobr,
+.price {
 	white-space: nowrap;
 }
