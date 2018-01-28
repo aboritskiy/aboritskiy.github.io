@@ -43,3 +43,10 @@ abbr[data-original-title] {
 .price {
 	white-space: nowrap;
 }
+
+.email::after {
+	content: attr(data-domain);
+}
+.email::before {
+	content: attr(data-user);
+}
