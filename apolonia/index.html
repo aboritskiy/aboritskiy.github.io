@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>Аполония</title>
+	<title>ООО Аполония</title>
 
 	<meta name="robots" content="index follow"/>
 	<meta name="description" content=""/>
@@ -12,11 +12,139 @@
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all"/>
 	<link rel="stylesheet" type="text/css" href="css/custom.css" media="all"/>
+
+	<script type="text/javascript" src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/clinic-map.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
+			<div class="vcard head-clinic-data">
+				<div class="col-xs-12 col-sm-9">
+					<div class="fn org">
+						<h1><abbr title="Общество с Ограниченной Ответственностью">ООО</abbr> &laquo;Аполония&raquo;</h1>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<p class="adr">
+						<span class="hide">
+							<span class="country-name">Россия</span>,
+							<span class="postal-code">445010</span>,
+							<span class="region">Самарская область</span>,
+						</span>
+						<span class="locality">Тольятти</span>,
+						<span class="street-address">улица Строителей, дом 7</span><br/>
+					</p>
+					<a class="tel" href="tel:+78482434544" title="Кабинет доктора Борицкого">
+						<span class="type hide">Work</span> +7&nbsp;8482&nbsp;43-45-44
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-xs-12">
+				<h2>Режим работы</h2>
+
+				<p>с 17:00 до 20:00 по предварительной записи. Суббота, воскресенье – выходной.</p>
+				<p>Запись по телефону: <a class="tel" href="tel:+78482434544" title="Есть вопрос? - позвоните нам">+7&nbsp;8482&nbsp;43-45-44</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Наши специалисты</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h3>Борицкая Татьяна Геннадьевна</h3>
+
+				<p>Врач, стоматолог-терапевт высшей категории</p>
+			</div>
+			<div class="col-xs-12">
+				<h3>Ястребова Наталья Викторовна</h3>
+
+				<p>Врач, стоматолог общей практики</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Как нас найти</h2>
+
+				<div class="fixed-aspect-ratio aspect-16-9">
+					<div class="map-container" id="map-container">
+						<div class="map-settings">
+							<span class="map-center">
+								<span class="lat">53.509124</span>
+								<span class="lng">49.409037</span>
+							</span>
+							<span class="map-zoom">12</span>
+							<span class="baloon">
+								<span class="center">
+									<span class="lat">53.509124</span>
+									<span class="lng">49.409037</span>
+								</span>
+								<span class="hint"><abbr title="Общество с Ограниченной Ответственностью">ООО</abbr> Аполония</span>
+								<span class="content"><strong><abbr title="Общество с Ограниченной Ответственностью">ООО</abbr> Аполония<br/></strong><br/>улица Строителей, дом 7<br/><a class="tel" href="tel:+78482434544" title="Есть вопрос? - позвоните нам">+7&nbsp;8482&nbsp;43-45-44</a></span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Правовая информация</h2>
+				<div class="row">
+					<div class="col-xs-12 col-md-8">
+						<h3>Порядок предоставления услуг</h3>
+						<p>Медицинская организация <abbr title="Общество с Ограниченной Ответственностью">ООО</abbr> &laquo;Аполония&raquo; не участвует в программе государственных гарантий бесплатного оказания гражданам медицинской помощи и в территориальной программе государственных гарантий бесплатного оказания гражданам медицинской помощи.</p>
+						<p>Бесплатную медицинскую помощь по данному направлению можно получить в </p>
+
+						<h3>Контролирующие организации</h3>
+						<ol class="supervisors">
+							<li class="vcard">
+								<span class="fn org">Министерство здравоохранения Самарской области</span><br/>
+								<span class="adr">
+									<span class="country-name hide">Россия</span>
+									<span class="postal-code">443020</span>,
+									<span class="region hide">Самарская область</span>
+									<span class="locality">Самара</span>,
+									<span class="street-address">улица Ленинская, дом 73</span>
+								</span><br/>
+								<a class="tel" href="tel:+78463330016" title="Министерство здравоохранения Самарской области">
+									<span class="type hide">Work</span> +7&nbsp;846&nbsp;333-00-16
+								</a>
+							</li>
+							<li class="vcard">
+								<span class="fn org">Территориальный орган Федеральной службы по надзору в сфере здравоохранения по Самарской области</span><br/>
+								<span class="adr">
+									<span class="country-name hide">Россия</span>
+									<span class="postal-code">443041</span>,
+									<span class="region hide">Самарская область</span>
+									<span class="locality">Самара</span>,
+									<span class="street-address">улица Арцыбушевская, дом 13</span>
+								</span><br/>
+								<a class="tel" href="tel:+78463332087" title="Территориальный орган Федеральной службы по надзору в сфере здравоохранения по Самарской области">
+									<span class="type hide">Work</span> +7&nbsp;846&nbsp;333-20-87
+								</a>
+							</li>
+						</ol>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<h3>Лицензия</h3>
+						<!--<p><a class="license" href="doc/apolonia_license_2017.pdf" title="Посмотреть текст лицензии" target="_blank">Лицензия № </a> от , выдана Министерством Здравоохранения Самарской области.</p>-->
+
+						<h3>Реквизиты предприятия</h3>
+						<ul class="bank-requisites">
+							<li><abbr title="Основной Государственный Регистрационный Номер">ОРГН</abbr>: 1046301010568</li>
+							<li><abbr title="Индивидуальный Номер Налогоплательщика">ИНН</abbr>: 6323075702</li>
+							<!--<li><abbr title="Код Причины Постановки на учет">КПП</abbr>: </li>-->
+						</ul>
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
